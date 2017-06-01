@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="1000.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <TextArea fx:id="attText" layoutX="235.0" layoutY="114.0" prefHeight="200.0" prefWidth="543.0" />
+      <Button layoutX="870.0" layoutY="911.0" mnemonicParsing="false" onAction="#clickHTML" text="Send" />
+      <Label fx:id="htmlLabel1" layoutX="218.0" layoutY="419.0" text="Label" />
+      <Label fx:id="htmlLabel2" layoutX="218.0" layoutY="479.0" text="Label" />
+   </children>
+</AnchorPane>

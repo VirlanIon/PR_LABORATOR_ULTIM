@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="1000.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerSend">
+   <children>
+      <Button fx:id="back" layoutX="37.0" layoutY="929.0" mnemonicParsing="false" onAction="#sceneHandler1" text="Back" />
+      <Label fx:id="sendID" layoutX="37.0" layoutY="54.0" text="Send" />
+      <TextArea fx:id="bodyText" layoutX="37.0" layoutY="239.0" prefHeight="454.0" prefWidth="918.0" />
+      <Button fx:id="sendBt" layoutX="890.0" layoutY="945.0" mnemonicParsing="false" onAction="#sendMess" text="Send" />
+       <TextArea fx:id="subjectText" layoutX="37.0" layoutY="150.0" prefHeight="42.0" prefWidth="918.0" />
+      <Button fx:id="addHTML" layoutX="651.0" layoutY="777.0" mnemonicParsing="false" onAction="#sendHtmlMess" text="add HTML" />
+      <Button fx:id="addAtt" layoutX="604.0" layoutY="827.0" mnemonicParsing="false" onAction="#addFile" prefHeight="31.0" prefWidth="198.0" text="add Attachment" />
+      <Label layoutX="37.0" layoutY="117.0" text="Subject" />
+      <Label layoutX="37.0" layoutY="206.0" text="Text" />
+   </children>
+</AnchorPane>

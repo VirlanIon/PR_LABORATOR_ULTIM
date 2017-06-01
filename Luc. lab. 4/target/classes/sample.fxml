@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="bt1" layoutX="467.0" layoutY="72.0" mnemonicParsing="false" onAction="#getter" text="Conect" />
+      <Label fx:id="text1" layoutX="193.0" layoutY="112.0" prefHeight="21.0" prefWidth="600.0" textAlignment="CENTER" />
+      <ListView fx:id="eList" layoutX="201.0" layoutY="157.0" onMouseClicked="#emailClicked" prefHeight="200.0" prefWidth="600.0" />
+      <Button fx:id="bt2" layoutX="769.0" layoutY="400.0" mnemonicParsing="false" onAction="#sceneHandler" text="Send" />
+   </children>
+</AnchorPane>

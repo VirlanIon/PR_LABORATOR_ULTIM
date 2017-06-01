@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="1000.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="back2" layoutX="853.0" layoutY="641.0" mnemonicParsing="false" onAction="#sceneHandler1" text="Back" />
+      <Label fx:id="emailLabel" layoutX="57.0" layoutY="63.0" prefHeight="487.0" prefWidth="893.0" text="Label" />
+      <WebView fx:id="webView" layoutX="86.0" layoutY="506.0" prefHeight="181.0" prefWidth="463.0" />
+   </children>
+</AnchorPane>
